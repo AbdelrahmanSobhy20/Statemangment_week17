@@ -26,7 +26,7 @@ class SecondPage extends StatelessWidget {
               Stack(
                 alignment: Alignment.topRight,
                 children: [
-                Text("${data.quantity}", style: TextStyle(fontSize: 20),),
+                Text("${data.quantity}", style: const TextStyle(fontSize: 20),),
                 IconButton(
                     onPressed: () {}, icon: const Icon(Icons.shopping_cart)),
 
